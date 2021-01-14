@@ -56,3 +56,8 @@ const navState = () => {
     menuToggle.setAttribute("src", "/src/assets/close-menu.svg")
   }
 }
+
+// copyright years
+const NOW_YEARS = new Date();
+const nowYearsPlace = document.querySelector('#now-years');
+nowYearsPlace.textContent = NOW_YEARS.getFullYear();
